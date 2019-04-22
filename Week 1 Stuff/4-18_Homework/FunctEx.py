@@ -111,16 +111,27 @@
 # plot.show()
 
 # 8. Play again?
-question = input("Do you want to play again (Y or N)? ")
+# question = input("Do you want to play again (Y or N)? ")
 
 
-def answer():
-    if answer == "Y": 
-        print("True")
-    if answer == "N":
-        print("False")
+# def answer(question):
+#     if(question == "Y" or question == "y"):
+#         print("True")
+#     if(question == "N" or question == "n"):
+#         print("False")
 
-answer(question)
+# answer(question)
 
 # 9. Play again? Again.
+# question = input("Do you want to play again (Y or N)? ")
 
+
+# def answer(question):
+#     if(question == "Y" or question == "y"):
+#         print("True")
+#     elif(question == "N" or question == "n"):
+#         print("False")
+#     else:
+#         print("Invalid input.")
+
+# answer(question)
