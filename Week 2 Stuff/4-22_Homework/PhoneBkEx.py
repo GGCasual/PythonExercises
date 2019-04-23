@@ -33,8 +33,8 @@ if question == 2:
     name = input("What\'s the person\'s name? ")
     num = input("What\'s the phone number? ")
     contacts[name] = num
-
-print(contacts)
+    print(f"Entry stored for {name}")
+    print(contacts)
 
 
 # 3. Delete an entry 
@@ -52,8 +52,7 @@ if question == 3:
     if name == 'Jamie' or name == 'jamie':
         print(f"Deleted entry for {name}")
         del contacts['Jamie']
-
-print(contacts)
+    print(contacts)
 
 
 # 4. List all entries 
