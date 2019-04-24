@@ -48,30 +48,30 @@
 
 
 
-# class Person(object):
-#     def __init__(self, name):
-#         self.name = name
-#         self.count = 0
-#         print(f"hello {self.name}")
-#     def change_name(self, new_name):
-#         self.name = new_name
-#         self.count = self.count + 1
-#         print(f"name: {self.name} count: {self.count}")
+class Person(object):
+    def __init__(self, name):
+        self.name = name
+        self.count = 0
+        print(f"hello {self.name}")
+    def change_name(self, new_name):
+        self.name = new_name
+        self.count = self.count + 1
+        print(f"name: {self.name} count: {self.count}")
 
 
-# student = Person('veronica')
-# atlanta_student = Person("Michael", "atalanta_student")
-# student.change_name("Matt")
-# student.change_name("Matt1")
-# student.change_name("Matt2")
-# student.change_name("Matt3")
-# atlanta_student.change_name("Jake")
+student = Person('veronica')
+# #atlanta_student = Person("Michael", "atalanta_student")
+student.change_name("Matt")
+student.change_name("Matt1")
+student.change_name("Matt2")
+student.change_name("Matt3")
+# #atlanta_student.change_name("Jake")
 
-# student.change_name("Matt4")
-# student.change_name("Matt5")
-# student.change_name("Matt6")
-# student.change_name("Matt7")
-# atlanta_student.change_name("Jake1")
+student.change_name("Matt4")
+student.change_name("Matt5")
+student.change_name("Matt6")
+student.change_name("Matt7")
+# #atlanta_student.change_name("Jake1")
 
 
 
@@ -107,32 +107,32 @@
 
 
 
-class Car:
-    def __init__(self, make, model, color):
-        self.make = make
-        self.model = model
-        self.color = color
-        self.doorStatus = "closed"
-        print(f"make: {self.make} model: {self.model} color: {self.color}")
-    def ChangeColor(self, newColor):
-        self.color = newColor
-        return (self.color)
-    def openDoor(self):
-        self.doorStatus = "open"
-    def displayColor(self):
-        print(f"The color of your {self.make} is {self.color}")
-    def displayInfo(self):
-        print(f"make: {self.make} model: {self.model} color: {self.color}")
+# class Car:
+#     def __init__(self, make, model, color):
+#         self.make = make
+#         self.model = model
+#         self.color = color
+#         self.doorStatus = "closed"
+#         print(f"make: {self.make} model: {self.model} color: {self.color}")
+#     def ChangeColor(self, newColor):
+#         self.color = newColor
+#         return (self.color)
+#     def openDoor(self):
+#         self.doorStatus = "open"
+#     def displayColor(self):
+#         print(f"The color of your {self.make} is {self.color}")
+#     def displayInfo(self):
+#         print(f"make: {self.make} model: {self.model} color: {self.color}")
 
 
 
-toyota = Car("toyota", "prius", "green")
-honda = Car("honda", "civic", "purple")
-jeep = Car("jeep", "wrangler", "white")
-ford = Car("ford", "f150", "marble")
+# toyota = Car("toyota", "prius", "green")
+# honda = Car("honda", "civic", "purple")
+# jeep = Car("jeep", "wrangler", "white")
+# ford = Car("ford", "f150", "marble")
 
-ford.ChangeColor("midnight red")x   
-ford.displayColor()
+# ford.ChangeColor("midnight red")
+# ford.displayColor()
 
 # toyota.displayInfo()
 # honda.displayInfo()
